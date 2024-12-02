@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c93691b-f916-4d64-8201-1b9889513c0c" name="Changes" comment="API Project">
+    <list default="true" id="2c93691b-f916-4d64-8201-1b9889513c0c" name="Changes" comment="29th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RestAssuredBasic/APITesting004_GET.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RestAssuredBasic/APITesting005_BDDStyleGET.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RestAssuredBasic/APITesting006_NonBDDStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RestAssuredBasic/APITesting007_GET_TestNG.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,43 +57,93 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.APITesting008.executor": "Run",
+    "TestNG.APITesting009_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting010_NonBDD.executor": "Run",
+    "TestNG.APITesting011_NonBDDStyle.executor": "Run",
     "TestNG.C:/Users/dhyan/Ax8APIAutomationProhram/testng-GET-NonBDDStyle.xml.executor": "Run",
     "TestNG.C:/Users/dhyan/Ax8APIAutomationProhram/testng-get-NonBDDStyle.xml.executor": "Run",
     "TestNG.C:/Users/dhyan/Ax8APIAutomationProhram/testng.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dhyan/Ax8APIAutomationProhram",
+    "last_opened_file_path": "C:/Users/dhyan/Ax8APIAutomationProhram/src/test/java/org/example/RestAssuredBasic/GET",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dhyan\Ax8APIAutomationProhram\src\test\java\org\example\RestAssuredBasic\GET" />
       <recent name="C:\Users\dhyan\Ax8APIAutomationProhram" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.RestAssuredBasic.GET" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/dhyan/Ax8APIAutomationProhram/testng-GET-NonBDDStyle.xml">
-    <configuration name="APItest001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.samplecheck.APItest001" />
+  <component name="RunManager" selected="TestNG.APITesting011_NonBDDStyle">
+    <configuration name="APITesting008" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ax8APIAutomationProhram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.samplecheck.*" />
+          <option name="PATTERN" value="org.example.RestAssuredBasic.POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.RestAssuredBasic.POST" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredBasic.POST.APITesting008" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APItest002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.samplecheck.APItest002" />
+    <configuration name="APITesting009_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ax8APIAutomationProhram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.samplecheck.*" />
+          <option name="PATTERN" value="org.example.RestAssuredBasic.POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.RestAssuredBasic.POST" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredBasic.POST.APITesting009_NonBDDStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting010_NonBDD" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ax8APIAutomationProhram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.RestAssuredBasic.PUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.RestAssuredBasic.PUT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredBasic.PUT.APITesting010_NonBDD" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting011_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ax8APIAutomationProhram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.RestAssuredBasic.PATCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.RestAssuredBasic.PATCH" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredBasic.PATCH.APITesting011_NonBDDStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,33 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/dhyan/Ax8APIAutomationProhram/testng-get-NonBDDStyle.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ax8APIAutomationProhram" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-get-NonBDDStyle.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/dhyan/Ax8APIAutomationProhram/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ax8APIAutomationProhram" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITesting011_NonBDDStyle" />
+        <item itemvalue="TestNG.APITesting010_NonBDD" />
+        <item itemvalue="TestNG.APITesting009_NonBDDStyle" />
+        <item itemvalue="TestNG.APITesting008" />
         <item itemvalue="TestNG.C:/Users/dhyan/Ax8APIAutomationProhram/testng-GET-NonBDDStyle.xml" />
-        <item itemvalue="TestNG.C:/Users/dhyan/Ax8APIAutomationProhram/testng-get-NonBDDStyle.xml" />
-        <item itemvalue="TestNG.C:/Users/dhyan/Ax8APIAutomationProhram/testng.xml" />
-        <item itemvalue="Application.APItest002" />
-        <item itemvalue="Application.APItest001" />
       </list>
     </recent_temporary>
   </component>
@@ -159,11 +193,20 @@
       <option name="project" value="LOCAL" />
       <updated>1732894954658</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="29th">
+      <option name="closed" value="true" />
+      <created>1732895154194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732895154194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="API Project" />
+    <MESSAGE value="29th" />
+    <option name="LAST_COMMIT_MESSAGE" value="29th" />
   </component>
 </project>
